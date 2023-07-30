@@ -1,0 +1,616 @@
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    font-size: 30px;
+   
+}
+/* image */
+#heading-section{
+    background-image: url(black-7717487.jpg);
+    height: 65vh;
+    background-size: cover;
+    padding-top:0.1rem;
+}
+/* navigation */
+.horizontal-list{
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+    
+}
+.horizontal-list li{
+    display: inline-block;
+    margin: 0px 8px 8px 0px;
+    font-weight: 100;
+    font-size: 0.9rem;
+}
+.horizontal-list li a {
+    color: white;
+    text-decoration: none;
+}
+.text-center{
+    text-align: center;
+}
+.nav-menu li a {
+    transition: color 0.5s, border-bottom 4s;
+}
+.nav-menu li a:hover{
+    color: lightgrey;
+    border: 1px solid black;
+}
+/* my name */
+#my-name {
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    transition: color 0.3s ease;
+  }
+
+  #my-name:hover {
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+/* main */
+/* my image
+ */
+ section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ #about {
+    height: auto;
+    width: 100%;
+    position: relative;
+    margin-top: 10px;
+   background-color: rgb(229,229,227);
+}
+
+
+#my-image {
+    height: 12rem;
+    width: 12rem;
+    margin: auto;
+    margin-top: -17vh;
+}
+
+#my-image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 1px 1px 10px 2px lightgrey;
+}
+
+#para{
+    border: 1px solid black;
+    margin: 50px;
+    padding:10px;
+    font-size: 1.5rem;
+    border: rgb(82,73,75);
+    
+  
+}
+#para p{
+    color: black;
+}
+
+#para p:hover{
+    color:darkblue;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+/* skills section
+ */
+
+
+/*Skills Section*/
+
+
+
+.skills-display {
+    width: 75%;
+    padding: 10px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.skill-progress {
+    width: 11rem;
+    height: 2.2rem;
+    background-color: lightgrey;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 2px 1px #b9b9b9 inset;
+    margin: 25px;
+    overflow: hidden;
+}
+
+.skill-progress > div {
+    border-radius: 20px 0px 0px 20px;
+    box-shadow: 1px 1px 5px 2px #989882;
+}
+
+.skill-name span {
+    color: white;
+    font-size: 1rem;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+.fourty-percent{
+    width: 40%;
+}
+.twenty-percent{
+    width: 20%;
+}
+.ten-percent{
+    width: 10%;
+}
+
+
+
+
+
+/* Portfolio Section */
+
+#portfolio-container {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 50px;
+    margin-bottom: 20px;
+    justify-content: space-around;
+    
+}
+
+.portfolio-image-container {
+    max-width: 300px;
+    overflow: hidden;
+    margin: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.portfolio-image-container img {
+    width: 100%;
+    height: 100%;
+}
+
+.portfolio-details {
+    transition: all 0.5s ease-in-out;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    color: transparent;
+    text-align: center;
+    padding: 10px;
+}
+
+.portfolio-image-container:hover {
+    box-shadow: 0 0 20px #74ADC8;
+}
+
+.portfolio-image-container:hover .portfolio-details {
+    background-color: #80808078;
+    color: white;
+}
+
+
+
+/* Common Margin Classes */
+
+.mb75px {
+    margin-bottom: 75px;
+}
+
+
+
+/*common color classes */
+
+.text-highlight {
+    color: #2857a4;
+    font-weight: 600;
+
+}
+
+
+
+/* setting background-color */
+
+.mb-blue {
+    background-color: #2857a4;
+}
+
+.mb-orange {
+    background-color: #ec4d1c;
+}
+
+.mb-teal {
+    background-color: #0b8176;
+}
+
+.mb-light-purple {
+    background-color: #93738c;
+}
+
+
+
+/*Percentage Classes */
+
+.eighty-five-percent {
+    height: inherit;
+    width: 85%;
+}
+
+.eighty-percent {
+    height: inherit;
+    width: 20%;
+}
+
+.fifty-percent {
+    height: inherit;
+    width: auto;
+}
+
+
+
+/* ---- Contact---- */
+
+#contact{
+    width:100%;
+    height:auto;
+    background:linear-gradient(to right,#2857a4 , #403066 80%);
+    color:white;
+}
+
+#contact-icon{
+    text-align:center;
+    padding:2rem 0 1.5rem 0;
+    color:white;
+}
+#contact-icon span{
+    margin-left:1rem;
+}
+#form-details{
+    width:100%;
+    height:auto;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    align-items:center;
+    margin-bottom:2rem;
+}
+#contact-form{
+    width:40%;
+    height:auto;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:space-around;
+}
+#contact-form input[type="text"],input[type="email"], textarea
+{
+	margin:.5rem 0 .5rem 0;
+    height:1.5rem;
+    background-color:rgb(0,0,0,0);
+    border-bottom:2px solid white;
+    border-top:0px;
+    border-left:0px;
+    border-right:0px;
+}
+#contact-form input[type="button"]{
+    width:auto;
+    height:2.5rem;
+    margin:auto;
+	margin-top:1rem;
+    background-color:rgb(0,0,0,0);
+border-color:white;
+    color:white;
+    font-weight:bold;
+    letter-spacing:0.5px;
+    padding:0.5rem;
+    border-radius:.3rem;
+}
+#contact-form input[type="button"]:hover{
+    background-color:white;
+    color:#2857a4;
+}
+
+#contact-details{
+    width:40%;
+    height:auto;
+    display:flex;
+    flex-direction:column;
+    text-align:justify;
+    
+}
+#contact-details .para{
+    font-size:1.1rem;
+    font-weight:bold;
+}
+
+#contact-details span{
+    font-size:0.9rem;
+    letter-spacing:0.5px;
+    
+}
+#contact-details #ad-det{
+    font-size:.8rem;
+}
+
+
+/*---- WORK EXPERIENCE ----*/
+
+#experience {
+    width: 100%;
+    height: auto;
+    /*     background-color:gray; */
+}
+
+#work-icon {
+    color: #2857a4;
+    text-align: center;
+    padding: 3rem 0 1.5rem 0;
+}
+
+#work-icon span {
+    margin-left: 1rem;
+}
+
+#work-container {
+
+    width: 80%;
+    /*     border:1px solid black; */
+    margin: 0 auto;
+    position: relative;
+
+
+}
+
+
+#work-section {
+    position: relative;
+    left: 5%;
+    margin: 0.5rem;
+    min-height: 150px;
+    width: 40%;
+    /*     border:1px solid green; */
+}
+
+#work-section:nth-child(2n) {
+    left: 53%;
+}
+
+#work-section:nth-child(2n+1)::after {
+    content: '';
+    position: absolute;
+    top: 30%;
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    background-color: gray;
+    right: -13%;
+    z-index: 1;
+}
+
+#work-section:nth-child(2n)::after {
+    content: '';
+    position: absolute;
+    top: 30%;
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    background-color: gray;
+    left: -10%;
+    z-index: 1;
+}
+
+/* #timeline{
+    width:30%;
+    height:150px;
+    border:2px solid orange;
+    position:absolute;
+} */
+#work-container #timeline {
+    position: absolute;
+    width: 0%;
+    height: 66%;
+    border: 2px dashed #0096fa6b;
+    left: 50%;
+    top: 12%;
+}
+
+
+#upper-work-section {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+#upper-work-section-img img {
+    height: 50px;
+}
+
+#upper-work-section-details {
+    display: flex;
+    flex-direction: column;
+}
+
+#upper-work-section-details #designation {
+    font-size: 2rem;
+    color: #2857a4;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    ;
+}
+
+#upper-work-section-details #company {
+    color: orange;
+}
+
+#upper-work-section-details span {
+    font-size: 1.05rem;
+    color: gray;
+    text-align: right;
+}
+
+#lower-work-section {
+    width: 100%;
+    height: 50%;
+    font-size: 0.8rem;
+    color: gray;
+    text-align: justify;
+}
+
+
+/*---- Education ----*/
+
+
+#education {
+    width: 100%;
+    height: 650px;
+    background: lightgray;
+    margin-top: 3rem;
+    /*     background-color:gray; */
+}
+
+#edu-icon {
+    color: #2857a4;
+    text-align: center;
+    padding: 3rem 0 1.5rem 0;
+}
+
+#edu-icon span {
+    margin-left: 1rem;
+}
+
+#edu-container {
+
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+
+
+}
+
+
+#edu-section {
+    position: relative;
+    left: 5%;
+    margin: 0.5rem;
+    min-height: 150px;
+    width: 40%;
+}
+
+#edu-section:nth-child(2n) {
+    left: 53%;
+}
+
+#edu-section:nth-child(2n+1)::after {
+    content: '';
+    position: absolute;
+    top: 30%;
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    background-color: gray;
+    right: -13%;
+    z-index: 1;
+}
+
+#edu-section:nth-child(2n)::after {
+    content: '';
+    position: absolute;
+    top: 30%;
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    background-color: gray;
+    left: -10%;
+    z-index: 1;
+}
+
+#edu-container #timeline {
+    position: absolute;
+    width: 0%;
+    height: 66%;
+    border: 2px dashed #0096fa6b;
+    left: 50%;
+    top: 12%;
+}
+
+#timeline #plane {
+    position: sticky;
+    top: 25%;
+    transform: rotate(90deg);
+    z-index: 2;
+    color: #2857a4;
+
+}
+
+#edu-section {
+    position: relative;
+}
+
+#upper-edu-section {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+#upper-edu-section-img img {
+    height: 50px;
+}
+
+#upper-edu-section-details {
+    display: flex;
+    flex-direction: column;
+}
+
+#upper-edu-section-details #designation {
+    font-size: 2rem;
+    color: #2857a4;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    ;
+}
+
+#upper-edu-section-details #company {
+    color: orange;
+}
+
+#upper-edu-section-details span {
+    font-size: 1.05rem;
+    color: gray;
+    text-align: right;
+}
+
+#lower-edu-section {
+    width: 100%;
+    /* max-width:70ch; */
+    height: 50%;
+    font-size: 0.8rem;
+    color: gray;
+    /* margin:auto; */
+    /* text-align: justify; */
+}
+
+#lower-edu-section p {
+    text-align: right;
+}
